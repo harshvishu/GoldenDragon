@@ -102,20 +102,7 @@
 		3A8FCCC0226C39610047CF0A /* GoldenDragon */ = {
 			isa = PBXGroup;
 			children = (
-				3A8FCD06226C3A010047CF0A /* EndPointType.swift */,
-				3A8FCD01226C3A000047CF0A /* Future.swift */,
-				3A8FCD02226C3A000047CF0A /* HTTPMethod.swift */,
-				3A8FCCFC226C3A000047CF0A /* HTTPTask.swift */,
-				3A8FCCFF226C3A000047CF0A /* JSONParameterEncoder.swift */,
-				3A8FCD05226C3A010047CF0A /* Logger.swift */,
-				3A8FCD00226C3A000047CF0A /* NetworkError.swift */,
-				3A8FCD03226C3A010047CF0A /* NetworkLogger.swift */,
-				3A8FCCF9226C3A000047CF0A /* NetworkReachibilityManager.swift */,
-				3A8FCCFB226C3A000047CF0A /* ParameterEncoding.swift */,
-				3A8FCCFA226C3A000047CF0A /* RequestRetier.swift */,
-				3A8FCCFE226C3A000047CF0A /* Router.swift */,
-				3A8FCD04226C3A010047CF0A /* URL+Extension.swift */,
-				3A8FCCFD226C3A000047CF0A /* URLParameterEncoding.swift */,
+				6371EC1C245D9FF3003D936A /* Core */,
 				3A8FCCC1226C39610047CF0A /* GoldenDragon.h */,
 				3A8FCCC2226C39610047CF0A /* Info.plist */,
 			);
@@ -131,6 +118,27 @@
 				3A8FCCD8226C399A0047CF0A /* GoldenDragonTests-Bridging-Header.h */,
 			);
 			path = GoldenDragonTests;
+			sourceTree = "<group>";
+		};
+		6371EC1C245D9FF3003D936A /* Core */ = {
+			isa = PBXGroup;
+			children = (
+				3A8FCD06226C3A010047CF0A /* EndPointType.swift */,
+				3A8FCD01226C3A000047CF0A /* Future.swift */,
+				3A8FCD02226C3A000047CF0A /* HTTPMethod.swift */,
+				3A8FCCFC226C3A000047CF0A /* HTTPTask.swift */,
+				3A8FCCFF226C3A000047CF0A /* JSONParameterEncoder.swift */,
+				3A8FCD05226C3A010047CF0A /* Logger.swift */,
+				3A8FCD00226C3A000047CF0A /* NetworkError.swift */,
+				3A8FCD03226C3A010047CF0A /* NetworkLogger.swift */,
+				3A8FCCF9226C3A000047CF0A /* NetworkReachibilityManager.swift */,
+				3A8FCCFB226C3A000047CF0A /* ParameterEncoding.swift */,
+				3A8FCCFA226C3A000047CF0A /* RequestRetier.swift */,
+				3A8FCCFE226C3A000047CF0A /* Router.swift */,
+				3A8FCD04226C3A010047CF0A /* URL+Extension.swift */,
+				3A8FCCFD226C3A000047CF0A /* URLParameterEncoding.swift */,
+			);
+			path = Core;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
