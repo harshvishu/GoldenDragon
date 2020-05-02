@@ -2,7 +2,7 @@ Pod::Spec.new do |s|
 
  
   s.name                    = "GoldenDragon"
-  s.version                 = "1.0.0"
+  s.version                 = "1.0.1"
   s.summary                 = "A networking framework"
   s.description             = "GoldenDragon is a set of files to perform basic networking operations"
   s.homepage                = "https://github.com/harshvishu/GoldenDragon"
